@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 currentItemText.setText(key + " - " + Integer.toString(value));
             }
 
+            //Increment the counter to get the textview for the next item
             currentItem++;
         }
     }
