@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Shopping List</string>
-    <string name="initial_count">0</string>
-    <string name="btn_count_text">Count</string>
-    <string name="edit_text_hint">Enter some words</string>
+    <string name="text_ShoppingList">Shopping List</string>
+    <string name="text_SeeItems">See items</string>
+    <string name="text_Milk">Milk</string>
+    <string name="text_Apples">Apples</string>
+    <string name="text_Oranges">Oranges</string>
+    <string name="text_Bananas">Bananas</string>
+    <string name="text_Steak">Steak</string>
+    <string name="text_Butter">Butter</string>
+    <string name="text_Chocolate">Chocolate</string>
+    <string name="text_Candies">Candies</string>
+    <string name="text_Lettuce">Lettuce</string>
+    <string name="text_Cucumbers">Cucumbers</string>
 </resources>
