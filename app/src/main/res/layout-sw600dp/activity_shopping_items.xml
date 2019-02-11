@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingItems">
+
+    <Button
+        android:id="@+id/btnMilk"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:onClick="selectItem"
+        android:tag="Milk"
+        android:text="@string/text_Milk"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnApples"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:onClick="selectItem"
+        android:tag="Apples"
+        android:text="@string/text_Apples"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMilk" />
+
+    <Button
+        android:id="@+id/btnOranges"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:onClick="selectItem"
+        android:tag="Oranges"
+        android:text="@string/text_Oranges"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApples" />
+
+    <Button
+        android:id="@+id/btnBananas"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:onClick="selectItem"
+        android:tag="Bananas"
+        android:text="@string/text_Bananas"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOranges" />
+
+    <Button
+        android:id="@+id/btnSteak"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:onClick="selectItem"
+        android:tag="Steak"
+        android:text="@string/text_Steak"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBananas" />
+
+    <Button
+        android:id="@+id/btnButter"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectItem"
+        android:tag="Butter"
+        android:text="@string/text_Butter"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnChocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectItem"
+        android:tag="Chocolate"
+        android:text="@string/text_Chocolate"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnButter" />
+
+    <Button
+        android:id="@+id/btnCandies"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectItem"
+        android:tag="Candies"
+        android:text="@string/text_Candies"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChocolate" />
+
+    <Button
+        android:id="@+id/btnLettuce"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectItem"
+        android:tag="Lettuce"
+        android:text="@string/text_Lettuce"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCandies" />
+
+    <Button
+        android:id="@+id/btnCucumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="selectItem"
+        android:tag="Cucumbers"
+        android:text="@string/text_Cucumbers"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLettuce" />
+</android.support.constraint.ConstraintLayout>
